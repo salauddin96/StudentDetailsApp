@@ -9,12 +9,12 @@ android {
         viewBinding = true
     }
     namespace = "org.techtales.studentdetailsappassessment_04"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.techtales.studentdetailsappassessment_04"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

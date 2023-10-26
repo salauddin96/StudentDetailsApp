@@ -25,7 +25,7 @@ data class DataAdapter(private val data:List<Data>, private val itemClickListene
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.student_list,parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.list_items,parent, false)
         return ViewHolder(view)
     }
 
