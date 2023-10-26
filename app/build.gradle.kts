@@ -5,6 +5,9 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true
+    }
     namespace = "org.techtales.studentdetailsappassessment_04"
     compileSdk = 33
 
